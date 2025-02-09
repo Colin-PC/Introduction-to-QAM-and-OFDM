@@ -31,9 +31,9 @@ title = 'Amplitude Modulation - Time Domain Example'
 plt.suptitle(title, fontsize = title_font)
 
 ax3.set_xlabel("Time (ns)", fontsize = axis_font)
-ax1.set_ylabel("Voltage (V)", fontsize = axis_font)
-ax2.set_ylabel("Voltage (V)", fontsize = axis_font)
-ax3.set_ylabel("Voltage (V)", fontsize = axis_font)
+ax1.set_ylabel(r'$f_{BB} (t)$' + " (V)", fontsize = axis_font)
+ax2.set_ylabel(r'$f_{c} (t)$' + " (V)", fontsize = axis_font)
+ax3.set_ylabel(r'$f_{out} (t)$' + " (V)", fontsize = axis_font)
 
 ax1.plot(t, sig)
 ax2.plot(t, sig_c)
