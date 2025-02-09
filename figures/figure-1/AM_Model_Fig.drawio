@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.11">
+  <diagram name="Page-1" id="ewyeePDuIY1h20TS3R8f">
+    <mxGraphModel dx="574" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="peO5Npc_WOFzVq6ORCCS-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.multiplier;strokeWidth=2;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="405" y="480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-2" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;strokeWidth=2;aspect=fixed;" vertex="1" parent="peO5Npc_WOFzVq6ORCCS-4">
+          <mxGeometry x="7.5" y="5.589999999999975" width="25" height="28.83" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;aspect=fixed;strokeWidth=2;" vertex="1" parent="peO5Npc_WOFzVq6ORCCS-4">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-5" value="$$f_c (t)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="peO5Npc_WOFzVq6ORCCS-3" target="peO5Npc_WOFzVq6ORCCS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="385" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-9" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;strokeWidth=2;aspect=fixed;" vertex="1" parent="peO5Npc_WOFzVq6ORCCS-8">
+          <mxGeometry x="7.5" y="5.589999999999975" width="25" height="28.83" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-10" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;aspect=fixed;strokeWidth=2;" vertex="1" parent="peO5Npc_WOFzVq6ORCCS-8">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="peO5Npc_WOFzVq6ORCCS-10" target="peO5Npc_WOFzVq6ORCCS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-13" value="$$f_{BB} (t)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="peO5Npc_WOFzVq6ORCCS-15" value="$$f_{out}(t)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
